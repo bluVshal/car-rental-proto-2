@@ -1,5 +1,6 @@
 import React from 'react'
 import { Calendar } from 'primereact/calendar';
+import { carCategories } from '../Data';
 
 const Booking = () => {
     const [pickupDate, setPickupDate] = React.useState(null);
@@ -32,7 +33,13 @@ const Booking = () => {
                     </label>                    
                     <label className="grid gap-2 text-sm text-white/60">
                         Car Category
-                        <input type="text" placeholder="Enter car category" className="rounded-2xl border border-white/10 bg-black/30 px-4 py-4 text-white/40" />
+                        <select className="rounded-2xl border border-white/10 bg-black px-4 py-4 text-white">
+                            {carCategories.map((category) => (
+                                <option key={category} value={category}>
+                                    {category}
+                                </option>
+                            ))}
+                        </select>
                     </label>
                     <label className="grid gap-2 text-sm text-white/60">
                         Driver Age
