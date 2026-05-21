@@ -43,7 +43,7 @@ export const cars = [
     name: "Porsche 911 Carrera",
     type: "Sports",
     price: "$260/day",
-    img: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=80",
+    img: "https://images.unsplash.com/photo-1646567799145-bd59ff6cc476?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     seats: 2,
     fuel: "Petrol",
     speed: "293 km/h",
